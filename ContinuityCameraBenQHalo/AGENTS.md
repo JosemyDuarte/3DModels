@@ -16,13 +16,15 @@ Put acceptance tests in `tests/`. Generated files belong only in
 
 ## Build, Test, and Development Commands
 
-Use the adjacent `Pot` project's prepared virtual environment until this
-repository has its own `.venv`:
+Use this repository's local virtual environment. Create it and install the
+project (including development dependencies) when it does not yet exist:
 
 ```bash
-../../Pot/.venv/bin/python -m pytest
-../../Pot/.venv/bin/python -m screenbar_mount.export
-../../Pot/.venv/bin/python -m screenbar_mount.render
+python3 -m venv .venv
+.venv/bin/python -m pip install -e '.[dev]'
+.venv/bin/python -m pytest
+.venv/bin/python -m screenbar_mount.export
+.venv/bin/python -m screenbar_mount.render
 ```
 
 Run tests first; then regenerate both manufacturing files and all renders
