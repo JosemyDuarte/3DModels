@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "screenbar-continuity-camera-mount"
 version = "0.1.0"
 description = "Parametric build123d mount for an iPhone on a BenQ ScreenBar Halo 2 rear plate"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.10,<3.15"
 dependencies = [
-    "build123d>=0.8,<0.11",
+    "build123d>=0.11,<0.12",
     "matplotlib>=3.8",
 ]
 

@@ -24,13 +24,15 @@ friction fit.
 
 ## Print and export
 
-Use the known-good environment from the adjacent `Pot` project until this
-project receives its own virtual environment:
+Create a local environment for this project, then install its runtime and
+development dependencies:
 
 ```bash
-../../Pot/.venv/bin/python -m pytest
-../../Pot/.venv/bin/python -m screenbar_mount.export
-../../Pot/.venv/bin/python -m screenbar_mount.render
+python3 -m venv .venv
+.venv/bin/python -m pip install -e '.[dev]'
+.venv/bin/python -m pytest
+.venv/bin/python -m screenbar_mount.export
+.venv/bin/python -m screenbar_mount.render
 ```
 
 Print the single part in PETG with the broad yoke rear face on the bed. Use a
