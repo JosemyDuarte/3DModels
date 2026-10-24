@@ -1,0 +1,9 @@
+{
+  "input": "STEP/bed_hook.step",
+  "mode": "view",
+  "outputs": [
+    {"path":"renders/bed_hook_perspective.png","camera":"iso"},
+    {"path":"renders/bed_hook_top.png","camera":"top"}
+  ],
+  "output": {"padding":0.15,"sizeProfile":"diagnostic"}
+}
