@@ -1,0 +1,107 @@
+{
+  "jobs": [
+    {
+      "input": "STEP/vent_assembly.step",
+      "outputs": [
+        {
+          "path": "previews/assembled.png",
+          "camera": {
+            "direction": [
+              1,
+              1,
+              -0.9
+            ]
+          }
+        },
+        {
+          "path": "previews/underside.png",
+          "camera": {
+            "direction": [
+              1,
+              1,
+              0.8
+            ]
+          }
+        }
+      ],
+      "output": {
+        "sizeProfile": "diagnostic",
+        "padding": 0.12
+      }
+    },
+    {
+      "input": "STEP/vent_exploded.step",
+      "outputs": [
+        {
+          "path": "previews/two_pieces.png",
+          "camera": {
+            "direction": [
+              1,
+              1,
+              -0.9
+            ]
+          }
+        },
+        {
+          "path": "previews/open_joint.png",
+          "camera": {
+            "direction": [
+              1,
+              1,
+              0.8
+            ]
+          }
+        }
+      ],
+      "output": {
+        "sizeProfile": "diagnostic",
+        "padding": 0.12
+      }
+    },
+    {
+      "input": "STEP/fit_frame_assembly.step",
+      "outputs": [
+        {
+          "path": "previews/fit_frame_assembly.png",
+          "camera": {
+            "direction": [
+              1,
+              1,
+              -0.9
+            ]
+          }
+        }
+      ],
+      "output": {
+        "sizeProfile": "diagnostic",
+        "padding": 0.12
+      }
+    },
+    {
+      "input": "STEP/first_layers_left.step",
+      "outputs": [
+        {
+          "path": "previews/first_layers_left.png",
+          "camera": "iso"
+        }
+      ],
+      "output": {
+        "sizeProfile": "diagnostic",
+        "padding": 0.12
+      }
+    },
+    {
+      "input": "STEP/first_layers_right.step",
+      "outputs": [
+        {
+          "path": "previews/first_layers_right.png",
+          "camera": "iso"
+        }
+      ],
+      "output": {
+        "sizeProfile": "diagnostic",
+        "padding": 0.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "left": {
+    "solid_count": 1,
+    "valid": true,
+    "volume_mm3": 86658.174,
+    "bounds_mm": [
+      120.5,
+      175.0,
+      67.742
+    ],
+    "stl": {
+      "triangles": 24606,
+      "watertight": true,
+      "consistent_winding": true,
+      "components": 1,
+      "volume_mm3": 86658.137,
+      "bounds_mm": [
+        120.5,
+        175.0,
+        67.742
+      ]
+    }
+  },
+  "right": {
+    "solid_count": 1,
+    "valid": true,
+    "volume_mm3": 82697.761,
+    "bounds_mm": [
+      112.35,
+      175.0,
+      67.437
+    ],
+    "stl": {
+      "triangles": 5768,
+      "watertight": true,
+      "consistent_winding": true,
+      "components": 1,
+      "volume_mm3": 82695.258,
+      "bounds_mm": [
+        112.35,
+        175.0,
+        67.437
+      ]
+    }
+  },
+  "assembly": {
+    "solid_count": 2,
+    "overlap_mm3": 0.0,
+    "bounds_mm": [
+      225.0,
+      175.0,
+      67.742
+    ],
+    "minimum_part_distance_mm": 0.3,
+    "flat_outer_end_faces_checked": true,
+    "holder_slots_removed": true,
+    "open_lap_rebate_checked": true,
+    "root_ramp_degrees": 26.565,
+    "magnet_pockets": 18,
+    "pocket_diameter_mm": 12.3,
+    "pocket_depth_mm": 2.1,
+    "floor_mm": 1.3,
+    "vent_normal_approach_checked": true,
+    "mounting_footprint_matches_vent": true,
+    "mounting_rim_width_mm": 15.5,
+    "horizontal_rim_width_mm": 17.0,
+    "rear_rim_inside_scoop": true
+  },
+  "fit_tests": {
+    "first_layers_left": {
+      "valid": true,
+      "exact_cut_of_full_model": true,
+      "volume_mm3": 35078.698,
+      "bounds_mm": [
+        67.437,
+        175.0,
+        18.0
+      ],
+      "stl": {
+        "triangles": 3920,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "volume_mm3": 35077.45,
+        "bounds_mm": [
+          67.437,
+          175.0,
+          18.0
+        ]
+      }
+    },
+    "first_layers_right": {
+      "valid": true,
+      "exact_cut_of_full_model": true,
+      "volume_mm3": 35078.698,
+      "bounds_mm": [
+        67.437,
+        175.0,
+        18.0
+      ],
+      "stl": {
+        "triangles": 3920,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "volume_mm3": 35077.487,
+        "bounds_mm": [
+          67.437,
+          175.0,
+          18.0
+        ]
+      }
+    },
+    "first_layers_material_fraction": 0.414,
+    "fit_frame_left": {
+      "valid": true,
+      "exact_cut_of_full_model": true,
+      "volume_mm3": 12939.019,
+      "bounds_mm": [
+        120.5,
+        175.0,
+        5.6
+      ],
+      "stl": {
+        "triangles": 5488,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "volume_mm3": 12940.857,
+        "bounds_mm": [
+          120.5,
+          175.0,
+          5.6
+        ]
+      }
+    },
+    "fit_frame_right": {
+      "valid": true,
+      "exact_cut_of_full_model": true,
+      "volume_mm3": 12886.451,
+      "bounds_mm": [
+        112.35,
+        175.0,
+        5.6
+      ],
+      "stl": {
+        "triangles": 5488,
+        "watertight": true,
+        "consistent_winding": true,
+        "components": 1,
+        "volume_mm3": 12888.289,
+        "bounds_mm": [
+          112.35,
+          175.0,
+          5.6
+        ]
+      }
+    },
+    "fit_frame_material_fraction": 0.152
+  }
+}

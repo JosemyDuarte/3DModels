@@ -1,0 +1,15 @@
+{
+  "left": {
+    "build_direction": "+X",
+    "joint_facets_checked": 1637,
+    "max_overhang_from_vertical_deg": 30.6824,
+    "area_above_45_1_deg_mm2": 0.0
+  },
+  "right": {
+    "build_direction": "-X",
+    "joint_facets_checked": 134,
+    "max_overhang_from_vertical_deg": 0.0,
+    "area_above_45_1_deg_mm2": 0.0
+  },
+  "scope": "Joint facets only; no slicing or physical print validation."
+}
